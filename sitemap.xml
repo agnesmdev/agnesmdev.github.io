@@ -13,21 +13,6 @@
   </url>
   
   <url>
-    <loc>/tags/</loc>
-    <lastmod>2020-05-20T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/travail/</loc>
-    <lastmod>2020-05-20T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/blog/methodes-de-travail/</loc>
-    <lastmod>2020-05-20T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>/contact/</loc>
     <lastmod>2018-07-14T17:09:20+06:00</lastmod>
   </url>
@@ -84,6 +69,18 @@
   
   <url>
     <loc>/categories/</loc>
+  </url>
+  
+  <url>
+    <loc>/tags/</loc>
+  </url>
+  
+  <url>
+    <loc>/tags/travail/</loc>
+  </url>
+  
+  <url>
+    <loc>/blog/methodes-de-travail/</loc>
   </url>
   
 </urlset>
