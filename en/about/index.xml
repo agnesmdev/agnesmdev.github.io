@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>About Me on Agnès M. | Freelancer Developer</title>
+    <link>https://www.portfolio.agnesm.dev/en/about/</link>
+    <description>Recent content in About Me on Agnès M. | Freelancer Developer</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>fr-FR</language>
+    <copyright>© Copyright 2020&lt;br&gt;Made with ❤️ by Agnès Maury.</copyright>
+    <lastBuildDate>Thu, 12 Jul 2018 18:19:33 +0600</lastBuildDate>
+    
+	<atom:link href="https://www.portfolio.agnesm.dev/en/about/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+  </channel>
+</rss>

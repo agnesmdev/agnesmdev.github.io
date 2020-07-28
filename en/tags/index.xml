@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on Agnès M. | Freelancer Developer</title>
+    <link>https://www.portfolio.agnesm.dev/en/tags/</link>
+    <description>Recent content in Tags on Agnès M. | Freelancer Developer</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>fr-FR</language>
+    <copyright>© Copyright 2020&lt;br&gt;Made with ❤️ by Agnès Maury.</copyright>
+    
+	<atom:link href="https://www.portfolio.agnesm.dev/en/tags/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>work</title>
+      <link>https://www.portfolio.agnesm.dev/en/tags/work/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.portfolio.agnesm.dev/en/tags/work/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

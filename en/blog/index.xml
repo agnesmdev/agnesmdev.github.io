@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Blog on Agnès M. | Freelancer Developer</title>
+    <link>https://www.portfolio.agnesm.dev/en/blog/</link>
+    <description>Recent content in Blog on Agnès M. | Freelancer Developer</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>fr-FR</language>
+    <copyright>© Copyright 2020&lt;br&gt;Made with ❤️ by Agnès Maury.</copyright>
+    <lastBuildDate>Mon, 06 Jul 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://www.portfolio.agnesm.dev/en/blog/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Three work methods to apply</title>
+      <link>https://www.portfolio.agnesm.dev/en/blog/work-methods/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.portfolio.agnesm.dev/en/blog/work-methods/</guid>
+      <description>During this lockdown, many companies has to adapt their working conditions to maintain their activity despite the pandemic. To this end, they set up a number of work methods et should keep on applying them even after the end of the lockdown.
+For some people, those are just temporary « arrangements » and all is going to normal once the disease is over.
+For me, it demonstrates this organisation is possible and even more, should be available for all employees under normal circumstances.</description>
+    </item>
+    
+  </channel>
+</rss>
