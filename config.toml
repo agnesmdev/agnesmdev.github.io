@@ -20,7 +20,7 @@ contactFormAction = "https://getform.io/f/0a9783f2-b849-443d-a142-9acfbac71a4c"
 [languages]
   [languages.fr]
 	home = "Accueil"
-    baseURL = "https://www.portfolio.agnesm.dev/fr/"
+    baseURL = "https://portfolio.agnesm.dev/fr/"
     contentDir = "content/fr"
     staticDir = "static/fr"
     title = "Agnès M. | Développeur Freelance"
@@ -31,7 +31,7 @@ contactFormAction = "https://getform.io/f/0a9783f2-b849-443d-a142-9acfbac71a4c"
     weight = 1
   [languages.en]
 	home = "Home"
-    baseURL = "https://www.portfolio.agnesm.dev/en/"
+    baseURL = "https://portfolio.agnesm.dev/en/"
     contentDir = "content/en"
     staticDir = "static/en"
     title = "Agnès M. | Freelancer Developer"
