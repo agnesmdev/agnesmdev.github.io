@@ -1,0 +1,66 @@
+{{ define "main" }}
+{{ $data := index .Site.Data .Site.Language.Lang }}
+{{ "<!-- Contact Section Start -->" | safeHTML }}
+<section id="legal-section">
+	<div class="container">
+        <div class="row">
+			{{ range $data.legal.blocks }}
+			<div class="col-lg-6">
+				<h2>{{ .title }}</h2>
+				{{ range .text }}
+					<p>{{ . | safeHTML }}</p>
+				{{ end }}
+			</div>
+
+			<div class="col-lg-6">
+				{{ range .content }}
+					<h3>{{ .title }}</h3>
+
+					{{ if .text }}
+					{{ range .text }}
+
+						{{ if .raw }}
+							<p>{{ .raw | safeHTML }}</p>
+						{{ end }}
+
+						{{ if .list }}
+							<ul class="legal-list">
+							{{ range .list }}
+								<li>{{ . }}</li>
+							{{ end }}
+							</ul>
+						{{ end }}
+
+						{{ if .address }}
+							<div class="legal-address">
+								<h5>{{ .address }}</h5>
+								<i class="ion-ios-location-outline">&nbsp;{{ $data.contact.officeAddress }}</i>
+							</div>
+						{{ end }}
+
+					{{ end }}
+					{{ end }}
+
+					{{ if .actors }}
+					{{ range .actors}}
+						
+						{{ if .name }}
+						<h5>{{ .name }}</h5>
+						{{ end }}
+
+						{{ if .address }}
+						<p>{{ .address | safeHTML }}</p>
+						{{ end }}
+
+					{{ end }}
+					{{ end }}
+
+				{{ end }}
+			</div>
+			{{ end }}
+		</div>
+	</div>
+</section>
+{{ partial "social.html" . }}
+
+{{ end }}

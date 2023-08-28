@@ -1,0 +1,88 @@
+baseURL = "/"
+languageCode = "fr-FR"
+tags = ["freelance", "developpement", "scala"]
+keywords = ["freelance", "developpement", "scala"]
+
+# We Used Ionicons Icon font for Icon, for more details check this link - https://ionicons.com/
+
+# Site Params
+[params]
+logo = "images/logo.svg"
+dateFormat = "6 January 2006"
+# Meta data
+author = "Agnès Cardin"
+images = ["https://www.portfolio.agnesm.dev/fr/images/avatar.jpeg"]
+# Google Analitycs
+# googleAnalitycsID = ""
+# contact form action
+contactFormAction = "https://getform.io/f/0a9783f2-b849-443d-a142-9acfbac71a4c"
+
+[languages]
+  [languages.fr]
+	home = "Accueil"
+    baseURL = "https://www.portfolio.agnesm.dev/fr/"
+    contentDir = "content/fr"
+    staticDir = "static/fr"
+    title = "Agnès M. | Développeur Freelance"
+	description = "Développeur Back-end Freelance"
+	blogBack = "Retourner à la liste des articles"
+	blogNext = "Lire la suite"
+	copyright = "© Copyright 2023 • Fait avec ❤️ par Agnès Cardin."
+    weight = 1
+  [languages.en]
+	home = "Home"
+    baseURL = "https://www.portfolio.agnesm.dev/en/"
+    contentDir = "content/en"
+    staticDir = "static/en"
+    title = "Agnès M. | Freelancer Developer"
+	description = "Freelancer Back-end Developer"
+	blogBack = "Go back to articles list"
+	blogNext = "Read more"
+	copyright = "© Copyright 2023 • Made with ❤️ by Agnès Cardin."
+    weight = 2
+
+# EN menu
+[[languages.en.menu.main]]
+name    = "Blog"
+url     = "blog/"
+weight  = 2
+[[languages.en.menu.main]]
+name    = "Skills"
+url     = "skills/"
+weight  = 3
+[[languages.en.menu.main]]
+name    = "Experiences"
+url     = "experience/"
+weight  = 4
+[[languages.en.menu.main]]
+name    = "Contact"
+url     = "contact/"
+weight  = 5
+
+# FR menu
+[[languages.fr.menu.main]]
+name    = "Articles"
+url     = "blog/"
+weight  = 2
+[[languages.fr.menu.main]]
+name    = "Compétences"
+url     = "skills/"
+weight  = 3
+[[languages.fr.menu.main]]
+name    = "Expériences"
+url     = "experience/"
+weight  = 4
+[[languages.fr.menu.main]]
+name    = "Contact"
+url     = "contact/"
+weight  = 5
+
+# Team
+[params.team]
+enable  = true
+
+# Portfolio Section On Homepage
+[params.portfolio]
+enable   = false
+title    = "Latest Works"
+subtitle = ""

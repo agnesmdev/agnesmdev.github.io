@@ -1,0 +1,11 @@
+enable     : true
+title      : Rejoignez-moi sur les réseaux sociaux !
+icons :
+  - icon : ion-social-linkedin
+    url  : https://www.linkedin.com/in/agnes-cardin
+  - icon : ion-social-twitter
+    url  : https://twitter.com/cardin_agnes
+  - icon : ion-social-facebook
+    url  : https://www.facebook.com/agnesmscala
+  - icon : ion-social-github
+    url  : https://github.com/agnesmdev

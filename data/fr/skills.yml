@@ -1,0 +1,150 @@
+enable  : true
+title   : COMPÉTENCES
+languagesTitle    : LANGAGES
+languagesSubTitle : Voici la liste des langages dans lesquels je peux proposer mes services. Je peux interagir sur la partie Back, Front et Mobile.
+languagesItem     :
+  - title    : Scala
+    subtitle : Play, Spark, Akka HTTP, Slick
+    category : back
+    level    : 100
+
+  - title    : Java
+    subtitle : EE
+    category : back
+    level    : 80
+
+  - title    : Python
+    subtitle : Flask
+    category : back
+    level    : 70
+
+  - title    : Go
+    category : back
+    level    : 60
+
+  - title    : HTML/CSS
+    subtitle : Bootstrap
+    category : front
+    level    : 80
+
+  - title    : JavaScript
+    category : front
+    level    : 70
+
+  - title    : TypeScript
+    category : front
+    level    : 60
+
+  - title    : ReactJS
+    category : front
+    level    : 40
+
+  - title    : Kotlin
+    category : mobile
+    level    : 40
+
+dataTitle    : DONNÉES ET SYSTÈME
+dataSubTitle : Bases de données en tout genre.
+dataItem     :
+  - title    : PostgreSQL
+    level    : 100
+
+  - title    : MySQL
+    level    : 90
+
+  - title    : Neo4J
+    level    : 70
+
+  - title    : Kakfa
+    level    : 60
+
+  - title    : Cassandra
+    level    : 60
+
+  - title    : Keycloak
+    level    : 60
+
+  - title    : Redis
+    level    : 60
+
+opsTitle    : DEVOPS
+opsSubTitle : Outils et plateformes opérationnelles.
+opsItem     :
+  - title    : Git
+    subtitle : GitHub
+    level    : 100
+
+  - title    : Terraform
+    subtitle : Plugin AWS
+    level    : 80
+
+  - title    : AWS
+    subtitle : ECS, CW, SQS, CW
+    level    : 70
+
+  - title    : Jenkins
+    level    : 60
+
+  - title    : Docker
+    level    : 60
+
+devTitle    : DÉVELOPPEMENT
+devSubTitle : IDE et outils de développement.
+devItem     :
+  - title    : IntelliJ
+    category : ide
+    level    : 100
+
+  - title    : Eclipse
+    category : ide
+    level    : 80
+
+  - title    : VisualStudioCode
+    category : ide
+    level    : 70
+
+  - title    : Atom
+    category : ide
+    level    : 70
+
+  - title    : AndroidStudio
+    category : ide
+    level    : 60
+
+  - title    : Postman
+    level    : 80
+
+  - title    : Gatling
+    level    : 60
+
+methodTitle    : MÉTHODOLOGIES
+methodSubTitle : Méthodes et outils projets.
+methodItem     :
+  - title    : Agile
+    level    : 100
+
+  - title    : JIRA
+    level    : 80
+
+  - title    : Swagger
+    subtitle : V2 et V3
+    level    : 80
+
+langTitle    : LANGUES
+langSubTitle : All idiomas que watashi can hablar.
+langItem     :
+  - title    : Français
+    icon     : /fr/images/skills/france.png
+    level    : 100
+
+  - title    : English
+    icon     : /fr/images/skills/english.png
+    level    : 80
+
+  - title    : Español
+    icon     : /fr/images/skills/spanish.png
+    level    : 40
+
+  - title    : 日本人
+    icon     : /fr/images/skills/japan.png
+    level    : 40

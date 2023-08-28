@@ -1,0 +1,12 @@
+enable  : true
+contactFormTitle    : CONTACT ME
+contactFormSubtitle : >
+  If you have any question or if you want a custom quote, feel free to contact me via this form.
+mapTitle    : LOCATION
+mapSubtitle : Only for postal mail requests.
+nameForm : First / Last name
+messageForm : Message
+messagePlaceholderForm : Hello, I would like to...
+officeAddress : 5 rue Snellius 44700 Orvault
+mail : agnesm.dev@gmail.com
+phone : (+33) 7 66 37 07 51

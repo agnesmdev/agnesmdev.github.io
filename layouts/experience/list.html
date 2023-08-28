@@ -1,0 +1,43 @@
+{{ define "main" }}
+
+{{ $data := index .Site.Data .Site.Language.Lang }}
+{{ "<!-- Contact Section Start -->" | safeHTML }}
+<section id="experience-section" class="pages experience-page">
+    <div class="container">
+        {{ with $data.experience.title }}<h2 class="subtitle wow fadeInUp animated" data-wow-delay=".3s" data-wow-duration="500ms">{{ . }}</h2>{{ end }}
+        {{ with $data.experience.subtitle }}<p class="subtitle-des wow fadeInUp animated" data-wow-delay=".5s" data-wow-duration="500ms">{{ . }}</p>{{ end }}
+        <hr>
+        {{ range $data.experience.items }}
+        {{ with (dict "company" .company "image" .image) }}<img src="{{ .image | absURL }}" alt="{{ .company }}">{{ end }}
+        {{ with .type }}
+        <div class="row experience-row {{ . }}">
+        {{ end }}
+            <div class="col summary">
+            {{ with .title }}<h2 class="subtitle wow fadeInUp animated" data-wow-delay=".3s" data-wow-duration="500ms">{{ . }}</h2>{{ end }}
+            {{ with (dict "duration" .duration "company" .company) }}<p class="fadeInUp animated" data-wow-delay=".5s" data-wow-duration="500ms">{{ .company }} — {{ .duration }}</p>{{ end }}
+            {{ with (dict "from" .from "to" .to) }}<p class="subtitle-tes wow fadeInUp animated" data-wow-delay=".5s" data-wow-duration="500ms">{{ .from }} — {{ .to }}</p>{{ end }}
+            </div>
+            <div class="col-lg-6">
+                <h2 class="subtitle wow fadeInUp animated" data-wow-delay=".3s" data-wow-duration="500ms">Actions</h2>
+                <ul class="experience-list">
+                {{ range .actions }}
+                    <li class="ion-android-arrow-forward">&nbsp;&nbsp;{{ . }}</li>
+                {{ end }}
+                </ul>
+            </div>
+            <div class="col">
+                <h2 class="subtitle wow fadeInUp animated" data-wow-delay=".3s" data-wow-duration="500ms">Environnement</h2>
+                <ul class="experience-list">
+                {{ range .environment }}
+                    <li class="ion-checkmark-round">&nbsp;&nbsp;{{ . }}</li>
+                {{ end }}
+                </ul>
+            </div>
+        </div>
+        <hr>
+        {{ end }}
+    </div>
+</section>
+{{ partial "cv.html" . }}
+
+{{ end }}

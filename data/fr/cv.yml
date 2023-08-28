@@ -1,0 +1,7 @@
+enable   : true
+title    : Téléchargez mon CV !
+content  : CV détaillé disponible au format docx et CV classique au format PDF.
+full     : /fr/content/agnescardin.docx
+lite     : /fr/content/agnescardin.pdf
+fullText : CV détaillé
+liteText : CV classique

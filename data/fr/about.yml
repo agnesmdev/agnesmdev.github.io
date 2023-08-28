@@ -1,0 +1,8 @@
+enable  : true
+title   : À propos de moi
+content : >
+  <p>Développeuse passionnée de <b>Scala</b>, je suis <b>basée à Nantes</b> et travaille <i>principalement</i> en remote, mais je peux me rendre chez le client si la mission le demande.</p>
+  <p>Je développe principalement en <b>Scala</b> couplé au framework <b>Play</b>. Je développe aussi en <b>Java</b>, <b>Python</b>, <b>Go</b> et d'autres langages encore.</p>
+  <p>Je suis également ouverte aux technologies Front-end et mobile telles que <b>ReactJS</b> ou <b>Kotlin</b>.</p>
+  <p>J'ai écrit un ouvrage sur le Scala pour permettre aux développeurs intéressés de découvrir le langage et la programmation fonctionnelle nommé <a href="https://www.editions-eni.fr/livre/scala-prise-en-main-du-langage-9782409033681" target="blank">Scala : Prise en main du langage.</a></p>
+image   : images/avatar.jpeg

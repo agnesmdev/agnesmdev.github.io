@@ -1,0 +1,35 @@
+enable  : true
+title   : Services proposés
+subtitle: >
+  Liste non exhaustive.
+item    :
+  - icon  : ion-help
+    title : Définition des besoins
+    description : >
+      À partir d’une spécification ou d’une ébauche, je peux décrire le besoin avec un <b>planning</b> et un <b>cahier des charges fonctionnel</b>.
+
+  - icon  : ion-network
+    title : Multi-langages
+    description : >
+      Je peux développer dans plusieurs langages : <b>Scala</b>, <b>Java</b>, <b>Python</b> et <b>Go</b>. Je peux aussi faire du développement <b>Front-end</b> et <b>mobile</b>.
+
+  - icon  : ion-home
+    title : Méthodologie
+    description : >
+      Je travaille principalement en <b>remote</b>, mais je peux me déplacer dans vos locaux de façon plus ou moins régulière. J'applique au quotidien les <b>méthodes Agile</b>.
+
+  - icon  : ion-code-working
+    title : Développement
+    description : >
+      Je peux vous créer une <b>nouvelle API</b>, mettre à jour une API vieillissante et même faire une migration du Java vers le Scala.
+
+  - icon  : ion-help-buoy
+    title : Accompagnement
+    description : >
+      Suite à la mise en place du nouveau code, je me rends disponible pendant une durée déterminée pour <b>accompagner les équipes</b> à le maintenir et le faire évoluer via du <b>pair-programming</b> ou des <b>documentations</b>.
+
+  - icon  : ion-android-hand
+    title : Intégration
+    description : >
+      Je reste avant tout une personne joviale qui aime <b>rencontrer de nouvelles personnes</b> et communiquer.
+      Pour travailler en équipe, ce n'est pas nécessaire de s'entendre mais c'est un <b>avantage non négligeable</b> !

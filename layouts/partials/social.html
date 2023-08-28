@@ -1,0 +1,25 @@
+{{ $data := index .Site.Data .Site.Language.Lang }}
+{{ if $data.social.enable }}
+{{ "<!-- Call To Action Section Start -->" | safeHTML }}
+<section id="social">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="block">
+                    {{ with $data.social.title }}<h2 class="title wow fadeInDown" data-wow-delay=".3s" data-wow-duration="500ms">{{ . }}</h2>{{ end }}
+                    {{ "<!-- Social Media -->" | safeHTML }}
+                    <div class="row text-center about-social">
+                        {{ range $index, $element := $data.social.icons }}
+                        <div class="col">
+                            <a class="social-icon" href="{{ .url | safeURL }}" target="_blank"><i class="{{ .icon }}"></i></a>
+                        </div>
+                        {{ end }}
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+{{ "<!-- Call To Action Section End -->" | safeHTML }}
+{{ end }}

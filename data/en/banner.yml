@@ -1,0 +1,10 @@
+enable   : true
+bgImage  : images/cover.jpeg
+heading  : Hi, I am Agnès Cardin and I am a
+btn      : false
+flipText :
+  - title   : Developer
+  - title   : Author
+  - title   : Speaker
+  - title   : Sketchnoter
+  - title   : Baker

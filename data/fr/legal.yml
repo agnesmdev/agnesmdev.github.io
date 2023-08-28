@@ -1,0 +1,66 @@
+enable      : true
+title       : Mentions légales
+url         : /fr/legal
+blocks :
+  - title : Mentions légales
+    text  :
+      - Conformément à l'article 6 de la loi n° 2004-575 du 21 juin 2004 pour la confiance dans l'économie numérique, les informations concernant l'identité des différents intervenants dans le cadre de la réalisation et du suivi du site <a href="https://www.portfolio.agnesm.dev/">portfolio.agnesm.dev</a> sont mises à disposition des visiteurs.
+    content :
+      - title  : Propriétaire
+        actors : 
+          - name : Agnès M.
+          - address : SARL en cours d'immatriculation<br>Domiciliée au 5 rue Snellius 44700 Orvault
+      - title  : Directeur de la publication
+        actors :
+          - name : Agnès Cardin
+      - title  : Hébergeur
+        actors :
+          - name : Github
+            address : 88 Colin P Kelly Jr St<br>San Francisco, CA 94107<br>États-Unis
+  - title : Conditions d’utilisation du site
+    text  :
+      - Merci de prendre connaissance de ces conditions avant de poursuivre la visite du site. L'utilisation de ce site implique l'acceptation pleine et entière des conditions ci-dessous explicitées.
+      - "Ces conditions peuvent être amenées à être modifiées : les utilisateurs sont donc invités à les consulter de façon régulière."
+    content :
+      - title : Conditions générales
+        text  :
+          - raw : Ce site internet constitue une œuvre de l'esprit et est protégé par le Code de la propriété intellectuelle. Ainsi, toute reproduction ou représentation, intégrale ou partielle, sur n'importe quel support, doit se faire avec l'autorisation expresse et préalable de <b>Agnès M.</b>.
+  - title : Gestion des données personnelles
+    text  :
+      - Conformément au Règlement Général sur la protection des données (RGPD n° 2016-679), les informations concernant la gestion des données personnelles sont mises à disposition des visiteurs.
+    content :
+      - title  : Responsables de la collecte de données personnelles
+        actors :
+          - name : Agnès Cardin
+          - name : GetForm
+            address : 86-90 Paul Street<br>3e étage<br>Londres<br>Royaume-Uni
+      - title : Finalité des données collectées
+        text  :
+          - raw : "Les seules données récoltées sont les données renseignées par l'utilisateur dans le formulaire de contact :"
+          - list :
+            - Nom et prénom ;
+            - Adresse e-mail.
+          - raw : Ces données ne sont aucunement commercialisées et sont uniquement utilisées pour communiquer avec les clients ayant renseigné ces informations.
+      - title : Droits des utilisateurs
+        text  :
+          - raw  : À tout moment, l'utilisateur du site <a href="https://www.portfolio.agnesm.dev/">portfolio.agnesm.dev</a> peut demander à
+          - list :
+            - accéder à ses données ;
+            - mettre à jour ses données ;
+            - supprimer ses données.
+          - raw : À tout moment, l'utilisateur peut contacter <b>Agnès M.</b> pour quelque demande ou questionnement à l'adresse suivante
+          - address : AGNÈS M. - SERVICE TRAITEMENT DES DONNÉES
+      - title : Non-divulgation des données personnelles
+        text  :
+          - raw : <b>Agnès M.</b> s'engage à ne pas traiter, héberger et transférer les données récoltées uniquement dans des pays hors l'Union Européenne ou ceux non reconnus comme adéquats par la Commission Européenne sans en informer le client.
+          - raw : <b>Agnès M.</b> s'engage à préserver la sécurité des informations et que celles-ci ne soient pas communiquées à des personnes non autorisées. Si toutefois, un accident parvenait, celle-ci s'engage à informer le client, prendre les mesures nécessaires et les communiquer au client.
+  - title : Cookies
+    text  :
+      - Selon la CNIL, un cookie est un traceur déposé et lu, comme par exemple lors de la consultation d'un site internet, et ce, quel que soit le type de terminal utilisé tels qu'un ordinateur, un Smartphone, une liseuse numérique et une console de jeux vidéos connectée à Internet. Ils doivent être listés et ceux qui ne sont pas nécessaires au fonctionnement du site doivent pouvoir être désactiver par le visiteur.
+    content :
+      - title : Cookies de fonctionnement (obligatoires)
+        text  :
+          - raw : Aucun
+      - title : Cookies d'optimisation (optionnels)
+        text  :
+          - raw : Aucun
