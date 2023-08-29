@@ -1,7 +1,8 @@
 baseURL = "/"
-languageCode = "fr-FR"
 tags = ["freelance", "developpement", "scala"]
 keywords = ["freelance", "developpement", "scala"]
+defaultContentLanguage = "fr"
+defaultContentLanguageInSubdir = true
 
 # We Used Ionicons Icon font for Icon, for more details check this link - https://ionicons.com/
 
@@ -21,7 +22,7 @@ websiteURL = "https://portfolio.agnesm.dev/"
 [languages]
   [languages.fr]
 	home = "Accueil"
-    baseURL = "https://portfolio.agnesm.dev/fr/"
+    languageCode = "fr-FR"
     contentDir = "content/fr"
     staticDir = "static/fr"
     title = "Agnès M. | Développeur Freelance"
@@ -32,7 +33,7 @@ websiteURL = "https://portfolio.agnesm.dev/"
     weight = 1
   [languages.en]
 	home = "Home"
-    baseURL = "https://portfolio.agnesm.dev/en/"
+    languageCode = "en-US"
     contentDir = "content/en"
     staticDir = "static/en"
     title = "Agnès M. | Freelancer Developer"
