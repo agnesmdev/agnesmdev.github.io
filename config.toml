@@ -16,11 +16,12 @@ images = ["https://www.portfolio.agnesm.dev/fr/images/avatar.jpeg"]
 # googleAnalitycsID = ""
 # contact form action
 contactFormAction = "https://getform.io/f/0a9783f2-b849-443d-a142-9acfbac71a4c"
+websiteURL = "https://portfolio.agnesm.dev/"
 
 [languages]
   [languages.fr]
 	home = "Accueil"
-    baseURL = "https://portfolio.agnesm.dev/"
+    baseURL = "https://portfolio.agnesm.dev/fr/"
     contentDir = "content/fr"
     staticDir = "static/fr"
     title = "Agnès M. | Développeur Freelance"

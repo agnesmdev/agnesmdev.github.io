@@ -100,7 +100,7 @@ $(document).ready(function () {
     let page = url.split('/')[4];
     $(".nav-item a").each(function() {
         let item = this.href.split('/')[4];
-        if (item === page) {
+        if (item === page && !this.classList.contains('nav-language')) {
             $(this).closest("li").addClass("current");
         }
     });
