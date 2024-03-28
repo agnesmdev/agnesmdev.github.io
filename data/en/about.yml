@@ -1,8 +1,0 @@
-enable  : true
-title   : About me
-content : >
-  <p>Passionate developer, especially of <b>Scala</b>, I am <b>based at Nantes</b> and work <b>mostly</b> remotely but I can partially work from the client office if the mission requires it.</p>
-  <p>I develop mainly in <b>Scala</b> paired with <b>Play</b> framework. I also develop in <b>Java</b>, <b>Python</b>, <b>Go</b> and much more.</p>
-  <p>I am also opened to Front-end and mobile technologies like <b>ReactJS</b> or <b>Kotlin</b>.</p>
-  <p>I wrote a book about Scala to introduce the langage and functional programming to curious developers named <a href="https://www.editions-eni.fr/livre/scala-prise-en-main-du-langage-9782409033681" target="blank">Scala : Prise en main du langage.</a></p>
-image   : images/avatar.jpeg

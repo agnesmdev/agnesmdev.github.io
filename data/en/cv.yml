@@ -1,7 +1,0 @@
-enable   : true
-title    : Download my resume!
-content  : Complete resume available in docx and classical resume available in PDF.
-full     : /en/content/agnescardin.docx
-lite     : /en/content/agnescardin.pdf
-fullText : Complete resume
-liteText : Classical resume

@@ -1,0 +1,129 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  height:100%;
+}
+
+body {
+  margin:0;
+}
+
+h1 {
+  font-size: 18px;
+}
+
+.dark {
+  color: white;
+}
+
+.bg-fr-light, .bg-fr-dark, .bg-en-light, .bg-en-dark {
+  animation:slide 3s ease-in-out infinite alternate;
+  bottom:0;
+  left:-50%;
+  opacity:.5;
+  position:fixed;
+  right:-50%;
+  top:0;
+  z-index:-1;
+}
+
+.bg-fr-light {
+  background-image: linear-gradient(-60deg, #5A189A 50%, #9D4EDD 50%);
+}
+
+.bg-fr-dark {
+  background-image: linear-gradient(-60deg, #240046 50%, #3c096c 50%);
+}
+
+.bg-en-light {
+  background-image: linear-gradient(-60deg, #48BFE3 50%, #80FFDB 50%);
+}
+
+.bg-en-dark {
+  background-image: linear-gradient(-60deg, #05668d 50%, #028090 50%);
+}
+
+.bg2 {
+  animation-direction:alternate-reverse;
+  animation-duration:4s;
+}
+
+.bg3 {
+  animation-duration:5s;
+}
+
+@keyframes slide {
+  0% {
+    transform:translateX(-25%);
+  }
+  100% {
+    transform:translateX(25%);
+  }
+}
+
+// TOGGLE
+.switch-name {
+  --dark-sky: #5050e5;
+  --moon: #ffd365;
+  --light-sky: #35d5e5;
+  --sun: #ffed89;
+  display: inline-block;
+  position: relative;
+  border-radius: 5em;
+  cursor: pointer;
+  width: 80px;
+  height: 40px;
+  overflow: hidden;
+  transition: all .5s;
+}
+
+.switch-name .back {
+  background-color: var(--dark-sky);
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  transition: .5s ease-in-out;
+}
+
+.switch-name .checkbox {
+  opacity: 0;
+}
+
+.switch-name .checkbox:checked ~ .back {
+  background-color: var(--light-sky);
+}
+
+.switch-name .checkbox:checked ~ .moon {
+  transform: translate(100%) rotate(180deg);
+  opacity: 0;
+}
+
+.switch-name .checkbox:checked ~ .sun {
+  transform: translate(100%) rotate(180deg);
+  opacity: 1;
+}
+
+.switch-name .moon {
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  padding: .4em;
+  fill: var(--moon);
+  transition: .5s;
+}
+
+.switch-name .sun {
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  padding: .4em;
+  fill: var(--sun);
+  transition: .5s;
+  opacity: 0;
+}
