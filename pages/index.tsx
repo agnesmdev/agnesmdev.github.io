@@ -36,7 +36,7 @@ export default function Home(props: HomeProps) {
   const boxShadow = props.darkMode ? "shadow-gray-400" : "shadow-gray-700";
 
   return (
-    <main className={`flex min-h-screen flex-col items-center justify-between p-4 lg:px-24 ${darkMode ? "dark" : ""}`}>
+    <main className={`flex min-h-full max-h-full flex-col box-border items-center justify-between p-4 lg:px-24 ${darkMode ? "dark" : ""}`}>
       <div className="z-10 max-w-5xl w-full items-center justify-between font-mono text-sm flex lg:py-0">
         <div className="fixed left-0 justify-center top-0 flex w-full pb-6 pt-8 lg:static lg:w-auto">
           <h1>Agnès Cardin</h1>
