@@ -8,6 +8,7 @@ import DarkModeToggle from "@/app/darkModeToggle";
 import LanguageButton from "@/app/languageButton";
 import MediaButton from "@/app/mediaButton";
 import DarkModeButton from "@/app/darkModeButton";
+import {Metadata} from "next";
 
 type HomeProps = {
   lang: string,
@@ -15,6 +16,13 @@ type HomeProps = {
   darkMode: boolean,
   setDarkMode: (mode: boolean) => void
 }
+
+export const metadata: Metadata = {
+  title: 'Agnès Cardin',
+  description: 'Agnès Cardin',
+  metadataBase: new URL('https://portfolio.agnesm.dev'),
+};
+
 
 export default function Home(props: HomeProps) {
   const {lang, setLang, darkMode, setDarkMode} = props;
