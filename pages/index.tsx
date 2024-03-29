@@ -2,13 +2,12 @@ import Image from "next/image";
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome"
 import {faEnvelope, faHeart, faStar, faSave} from "@fortawesome/free-solid-svg-icons"
 import {faLinkedin, faTwitter, faGithub} from "@fortawesome/free-brands-svg-icons"
-import translationFr from "../public/locales/fr/translation.json";
-import translationEn from "../public/locales/en/translation.json";
 import DarkModeToggle from "@/app/darkModeToggle";
 import LanguageButton from "@/app/languageButton";
 import MediaButton from "@/app/mediaButton";
 import DarkModeButton from "@/app/darkModeButton";
 import {Metadata} from "next";
+import t from "@/app/translation";
 
 type HomeProps = {
   lang: string,
@@ -19,26 +18,12 @@ type HomeProps = {
 
 export const metadata: Metadata = {
   title: 'Agnès Cardin',
-  description: 'Agnès Cardin',
-  metadataBase: new URL('https://portfolio.agnesm.dev'),
+  description: 'Agnès Cardin'
 };
 
 
 export default function Home(props: HomeProps) {
   const {lang, setLang, darkMode, setDarkMode} = props;
-
-  const t = (text: string) => {
-    if (lang.includes("fr")) {
-        // @ts-ignore
-        return translationFr[text];
-    }
-    if (lang.includes("en")) {
-        // @ts-ignore
-        return translationEn[text];
-    }
-    return text;
-  };
-
   const boxShadow = props.darkMode ? "shadow-gray-400" : "shadow-gray-700";
 
   return (
@@ -53,7 +38,7 @@ export default function Home(props: HomeProps) {
           <DarkModeToggle darkMode={darkMode} setDarkMode={setDarkMode}/>
           <div
             className="fixed bottom-0 left-0 flex pt-6 pb-8 w-full items-center justify-center lg:static lg:h-auto lg:w-auto lg:bg-none lg:py-0">
-            <p className="content-center">{t("footer")}</p>
+            <p className="content-center">{t(lang, "footer")}</p>
             <FontAwesomeIcon className="h-5 ml-2" icon={faHeart}/>
           </div>
         </div>
@@ -63,7 +48,7 @@ export default function Home(props: HomeProps) {
         <Image
           className={`relative rounded-full mt-12 lg:mt-0 xl:h-1/3 xl:w-1/3 lg:w-1/2 lg:h-1/2 shadow-2xl ${boxShadow}`}
           src="/agnes.jpg"
-          alt={t("photoAlt")}
+          alt={t(lang, "photoAlt")}
           width={200}
           height={200}
           priority
