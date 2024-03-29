@@ -20,17 +20,15 @@ export default function Home(props: HomeProps) {
   const {lang, setLang, darkMode, setDarkMode} = props;
 
   const t = (text: string) => {
-    switch (lang) {
-      case "fr":
-      case "fr-FR":
+    if (lang.includes("fr")) {
         // @ts-ignore
         return translationFr[text];
-      case "en":
-      case "en-gb":
-      case "en-us":
+    }
+    if (lang.includes("en")) {
         // @ts-ignore
         return translationEn[text];
     }
+    return text;
   };
 
   const boxShadow = props.darkMode ? "shadow-gray-400" : "shadow-gray-700";
